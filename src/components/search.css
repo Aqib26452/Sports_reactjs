@@ -1,0 +1,87 @@
+.setSearchBG {
+  background-color: #eceff1;
+  width: 74% !important;
+}
+.SetChartButton {
+  width: 24% !important;
+}
+
+.lineset1 {
+  width: 2px;
+  height: 90%;
+  background-color: #b4b5b6;
+  margin: auto;
+}
+.lineset3 {
+  width: 2px;
+  height: 90%;
+  background-color: #ffffff;
+  margin: auto;
+}
+.lineset2 {
+  width: 2px;
+  height: 70%;
+  background-color: #b4b5b6;
+  margin: auto;
+}
+.setInputbg {
+  background-color: #eceff1;
+  border: none;
+}
+.col-md-3Set {
+  width: 20% !important;
+}
+.col-md-8Set {
+  width: 80% !important;
+}
+.col-md-1Set {
+  width: 5% !important;
+}
+.setInputbg:focus {
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .setSearchBG {
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    width: 100% !important;
+  }
+  .SearchBG {
+    width: 100%;
+    margin-top: 0px !important;
+    /* margin-bottom: 10px !important; */
+    background-color: #1e1e1e;
+    padding-bottom: 10px;
+    height: auto !important;
+  }
+  .SetChartButton {
+    display: none;
+  }
+  .col-md-8Set {
+    display: flex;
+    justify-content: center;
+  }
+  .col-md-1Set {
+    display: none;
+  }
+  .setInputbg {
+    background-color: white !important;
+  }
+  .ShoesSetSmall {
+    display: none;
+  }
+  .SearchIconForSmall {
+    display: none;
+  }
+  .col-md-3Set {
+    width: 10% !important;
+  }
+  .col-md-8Set {
+    width: 80% !important;
+  }
+  .col-md-1Set {
+    width: 10% !important;
+  }
+}

@@ -1,0 +1,102 @@
+.bgSetForAllCross {
+  background-color: #eceff1;
+  /* align-items: center; */
+}
+.ASetCol {
+  color: rgb(37, 36, 36) !important;
+}
+.borderrSet {
+  border: 2px solid black;
+  padding: 0px 10px;
+  transition: all 0.5s;
+}
+.borderrSet:hover {
+  background-color: #bdc0c2;
+}
+.card-img {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+  background-color: #eceff1;
+  margin: auto;
+}
+.card-img-top {
+  width: 50%;
+  height: 60%;
+}
+.height-Set-Card {
+  height: 60vh !important;
+}
+
+.card-body {
+  /* width: 50%; */
+  height: 60%;
+}
+.iconColorSet {
+  color: #ffc831;
+}
+.SetColStock {
+  color: green;
+}
+.SetButtonStyle {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.IconBGSET {
+  background-color: #eceff1;
+  border-radius: 5px;
+}
+.CiHeart {
+  color: black;
+  background-color: black;
+}
+@media (max-width: 980px) {
+  .Alldiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .AlldivSmall {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 767px) {
+  .Alldiv {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+}
+@media (max-width: 500px) {
+  .CategoryDiv {
+    display: none;
+  }
+  .StockDiv {
+    display: none;
+  }
+  .SizeDiv {
+    display: none;
+  }
+  .hrhide {
+    display: none;
+  }
+  .HSRHide {
+    display: none;
+  }
+  .Applied-Filter {
+    display: none;
+  }
+  .colHide {
+    display: none;
+    border: none !important;
+  }
+  .colShow {
+    width: 100% !important;
+  }
+}
